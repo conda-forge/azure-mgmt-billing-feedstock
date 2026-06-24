@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-billing
-  version: 7.0.0
+  version: "8.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_mgmt_billing-${{ version }}.tar.gz
-  sha256: 8e0a65c65110b53a42937e5bed6ae00efc9d6206972d96bfd4a74e80c85c2d7b
+  sha256: 8f902f21d2493e6fc5c3c894d52a0783fc3480f4580e359489580316f7cef7c6
 
 build:
   number: 0
